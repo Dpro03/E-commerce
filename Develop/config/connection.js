@@ -1,4 +1,5 @@
 require('dotenv').config();
+console.log(process.env.password);
 
 const Sequelize = require('sequelize');
 
